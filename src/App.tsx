@@ -35,9 +35,10 @@ function App() {
           muted 
           loop 
           playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-50"
+          className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
         >
-          <source src="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-into-a-cup-3567-large.mp4" type="video/mp4" />
+          <source src="https://player.vimeo.com/external/494191316.sd.mp4?s=4477c44d0362c3f8e5605d513813898c19957f86&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
+          Your browser does not support the video tag.
         </video>
         <div className="relative text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight">心地よい一杯を。</h1>
