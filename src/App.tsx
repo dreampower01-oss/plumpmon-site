@@ -29,17 +29,14 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
-        {/* Background Video */}
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
-        >
-          <source src="https://player.vimeo.com/external/494191316.sd.mp4?s=4477c44d0362c3f8e5605d513813898c19957f86&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        {/* Background YouTube Video */}
+        <div className="absolute inset-0 w-full h-full pointer-events-none opacity-50">
+          <iframe 
+            src="https://www.youtube.com/embed/5U7u2Y78Ysc?autoplay=1&mute=1&loop=1&playlist=5U7u2Y78Ysc&controls=0&showinfo=0&rel=0&iv_load_policy=3" 
+            className="absolute top-1/2 left-1/2 w-[300%] h-[300%] -translate-x-1/2 -translate-y-1/2 border-none"
+            allow="autoplay; encrypted-media"
+          ></iframe>
+        </div>
         <div className="relative text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight">心地よい一杯を。</h1>
           <p className="text-lg md:text-xl font-light tracking-widest mb-10">穏やかな時間が流れる、街角の小さなカフェ</p>
