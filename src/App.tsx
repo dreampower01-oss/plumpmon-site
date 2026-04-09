@@ -29,10 +29,12 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
-        {/* Animated Photo Slideshow */}
+        {/* Real Photo Slideshow (3 Images) */}
         <div className="absolute inset-0">
-          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=2078')] bg-cover bg-center animate-pulse-slow opacity-40"></div>
-          <div className="absolute inset-0 bg-black/20"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=2078')] bg-cover bg-center animate-slideshow-1 opacity-0"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&q=80&w=2070')] bg-cover bg-center animate-slideshow-2 opacity-0"></div>
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1747')] bg-cover bg-center animate-slideshow-3 opacity-0"></div>
+          <div className="absolute inset-0 bg-black/30"></div>
         </div>
         <div className="relative text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight">心地よい一杯を。</h1>

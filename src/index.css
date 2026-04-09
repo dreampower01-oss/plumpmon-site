@@ -3,10 +3,21 @@
 @theme {
   --font-sans: "Zen Maru Gothic", sans-serif;
   --font-serif: "Zen Maru Gothic", serif;
-  --animate-pulse-slow: pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
 
-  @keyframes pulse-slow {
-    0%, 100% { opacity: 0.4; transform: scale(1); }
-    50% { opacity: 0.6; transform: scale(1.05); }
+  --animate-slideshow-1: slideshow-1 15s infinite;
+  --animate-slideshow-2: slideshow-2 15s infinite;
+  --animate-slideshow-3: slideshow-3 15s infinite;
+
+  @keyframes slideshow-1 {
+    0%, 33.33%, 100% { opacity: 0.4; transform: scale(1.05); }
+    43.33%, 90% { opacity: 0; transform: scale(1); }
+  }
+  @keyframes slideshow-2 {
+    0%, 33.33%, 76.66%, 100% { opacity: 0; transform: scale(1); }
+    43.33%, 66.66% { opacity: 0.4; transform: scale(1.05); }
+  }
+  @keyframes slideshow-3 {
+    0%, 66.66%, 100% { opacity: 0; transform: scale(1); }
+    76.66%, 90% { opacity: 0.4; transform: scale(1.05); }
   }
 }
