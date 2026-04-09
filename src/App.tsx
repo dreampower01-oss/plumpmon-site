@@ -29,7 +29,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
-        {/* Background Video (High Quality Cafe) */}
+        {/* Background Video (Stable CDN Source) */}
         <video 
           autoPlay 
           muted 
@@ -37,7 +37,7 @@ function App() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
         >
-          <source src="https://cdn.pixabay.com/video/2021/08/30/86815-594247738_tiny.mp4" type="video/mp4" />
+          <source src="https://res.cloudinary.com/demo/video/upload/f_auto:video,q_auto/coffee_drip.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="relative text-center text-white px-6">
