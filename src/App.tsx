@@ -28,8 +28,17 @@ function App() {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-screen flex items-center justify-center bg-[#5c4a33]">
-        <div className="absolute inset-0 opacity-40 bg-[url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=2078')] bg-cover bg-center"></div>
+      <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
+        {/* Background Video */}
+        <video 
+          autoPlay 
+          muted 
+          loop 
+          playsInline
+          className="absolute inset-0 w-full h-full object-cover opacity-50"
+        >
+          <source src="https://assets.mixkit.co/videos/preview/mixkit-coffee-being-poured-into-a-cup-3567-large.mp4" type="video/mp4" />
+        </video>
         <div className="relative text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight">心地よい一杯を。</h1>
           <p className="text-lg md:text-xl font-light tracking-widest mb-10">穏やかな時間が流れる、街角の小さなカフェ</p>
