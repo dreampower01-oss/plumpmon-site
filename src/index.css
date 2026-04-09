@@ -3,4 +3,10 @@
 @theme {
   --font-sans: "Zen Maru Gothic", sans-serif;
   --font-serif: "Zen Maru Gothic", serif;
+  --animate-pulse-slow: pulse-slow 8s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+
+  @keyframes pulse-slow {
+    0%, 100% { opacity: 0.4; transform: scale(1); }
+    50% { opacity: 0.6; transform: scale(1.05); }
+  }
 }

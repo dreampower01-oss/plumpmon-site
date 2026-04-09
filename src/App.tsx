@@ -29,17 +29,11 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
-        {/* Background Video (Stable CDN Source) */}
-        <video 
-          autoPlay 
-          muted 
-          loop 
-          playsInline
-          className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
-        >
-          <source src="https://res.cloudinary.com/demo/video/upload/f_auto:video,q_auto/coffee_drip.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
+        {/* Animated Photo Slideshow */}
+        <div className="absolute inset-0">
+          <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1501339847302-ac426a4a7cbb?auto=format&fit=crop&q=80&w=2078')] bg-cover bg-center animate-pulse-slow opacity-40"></div>
+          <div className="absolute inset-0 bg-black/20"></div>
+        </div>
         <div className="relative text-center text-white px-6">
           <h1 className="text-5xl md:text-7xl font-serif font-bold mb-6 tracking-tight">心地よい一杯を。</h1>
           <p className="text-lg md:text-xl font-light tracking-widest mb-10">穏やかな時間が流れる、街角の小さなカフェ</p>
