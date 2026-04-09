@@ -37,7 +37,7 @@ function App() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
         >
-          <source src="./hero-video.mp4" type="video/mp4" />
+          <source src="/plumpmon-site/hero-video.mp4" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="relative text-center text-white px-6">
