@@ -29,7 +29,7 @@ function App() {
 
       {/* Hero Section */}
       <section className="relative h-screen flex items-center justify-center bg-[#5c4a33] overflow-hidden">
-        {/* Background Video (Local) */}
+        {/* Background Video (Direct Link) */}
         <video 
           autoPlay 
           muted 
@@ -37,7 +37,7 @@ function App() {
           playsInline
           className="absolute inset-0 w-full h-full object-cover opacity-50 pointer-events-none"
         >
-          <source src="/plumpmon-site/hero-video.mp4" type="video/mp4" />
+          <source src="https://player.vimeo.com/external/494191316.sd.mp4?s=4477c44d0362c3f8e5605d513813898c19957f86&profile_id=165&oauth2_token_id=57447761" type="video/mp4" />
           Your browser does not support the video tag.
         </video>
         <div className="relative text-center text-white px-6">
