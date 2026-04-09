@@ -32,7 +32,7 @@ function App() {
         {/* Background YouTube Video */}
         <div className="absolute inset-0 w-full h-full pointer-events-none opacity-50">
           <iframe 
-            src="https://www.youtube.com/embed/5U7u2Y78Ysc?autoplay=1&mute=1&loop=1&playlist=5U7u2Y78Ysc&controls=0&showinfo=0&rel=0&iv_load_policy=3" 
+            src="https://www.youtube.com/embed/j_M-7e8O47Y?autoplay=1&mute=1&loop=1&playlist=j_M-7e8O47Y&controls=0&showinfo=0&rel=0&iv_load_policy=3&origin=https://dreampower01-oss.github.io" 
             className="absolute top-1/2 left-1/2 w-[300%] h-[300%] -translate-x-1/2 -translate-y-1/2 border-none"
             allow="autoplay; encrypted-media"
           ></iframe>
