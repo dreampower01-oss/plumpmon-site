@@ -131,7 +131,12 @@ function App() {
               </div>
             </div>
           </div>
-          <div className="h-[400px] bg-stone-200 bg-[url('https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&q=80&w=1747')] bg-cover bg-center">
+          <div className="h-[400px] bg-stone-100 flex items-center justify-center overflow-hidden">
+            <iframe 
+              src="https://www.youtube.com/embed/j_M-7e8O47Y?autoplay=1&mute=1&loop=1&playlist=j_M-7e8O47Y&controls=0&rel=0" 
+              className="w-full h-full border-none pointer-events-none"
+              allow="autoplay; encrypted-media"
+            ></iframe>
           </div>
         </div>
       </section>
